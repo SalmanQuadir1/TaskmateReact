@@ -21,7 +21,7 @@ const ShowTask = ({ taskList, setTaskList, task, setTask }) => {
     <>
       <section className='bg-light showTask shadow-lg border border-light p-4 '>
         <div className="todo">
-          <p className='todo1'>Todo({taskList.length})<span className='todoIndex badge badge-success p-1'>{taskList.length}</span></p>
+          <div className="badge badge-primary text-dark">Todo({taskList.length})</div>
           <button className='btn btn-primary btn-sm' onClick={() => setTaskList([])}>Clear All</button>
         </div>
         <hr />
