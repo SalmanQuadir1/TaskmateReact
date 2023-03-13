@@ -13,7 +13,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.themeSelector>span{
+span{
 
     height: 20px !important;
     width: 20px !important;
@@ -22,7 +22,8 @@ header{
     cursor: pointer;
     /* border:1px solid black !important; */
 }
-.themeSelector>span:active{
+
+.activeTheme{
     height: 35px !important;
     width:35px !important;
     border-radius: 50%;
@@ -46,9 +47,9 @@ header{
     
 }
 .g1{
- background: #5433FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .g2{
