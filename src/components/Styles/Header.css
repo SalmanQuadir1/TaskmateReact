@@ -1,0 +1,65 @@
+.logoName{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.themeSelector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.themeSelector>span{
+
+    height: 20px !important;
+    width: 20px !important;
+    border-radius: 50%;
+    margin:2px;
+    cursor: pointer;
+    /* border:1px solid black !important; */
+}
+.themeSelector>span:active{
+    height: 35px !important;
+    width:35px !important;
+    border-radius: 50%;
+    margin:2px;
+    cursor: pointer;
+
+}
+.dark{
+    background-color: black;
+    transition: all 500ms;
+
+}
+.medium{
+    background-color: #EFEFEF;
+    transition: all 500ms;
+    
+}
+.light{
+    background-color: #FFFFFF;
+    transition: all 500ms;
+    
+}
+.g1{
+ background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.g2{
+    background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.g3{
+    background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}

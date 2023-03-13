@@ -1,0 +1,13 @@
+.addTask>.formData{
+    display:flex;
+    padding: 1rem 2rem;
+
+
+}
+.addTask{ 
+    margin: 3rem auto;
+    width:600px;
+    padding:5px;
+    border: 1px solid lightgrey;
+
+}

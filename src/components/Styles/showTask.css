@@ -1,0 +1,24 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    height:80px !important;
+    border-left: 3px solid skyblue !important;
+}
+.card-text{
+
+    display: flex;
+    justify-content: space-between;
+}
+.btns{
+    justify-content: flex-start !important;
+    cursor: pointer;
+}
+.DateTime{
+    display: flex;
+    justify-content: left;
+}
+.pad{
+    margin-bottom: 0 !important;
+}
