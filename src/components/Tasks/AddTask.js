@@ -27,13 +27,16 @@ const AddTask = ({ taskList, setTaskList, task, setTask }) => {
 
   }
   return (
-    <section className='addTask shadow-sm bg-light '>
-      <form className='formData ' onSubmit={handleSubmit}>
-        <input type="text" name='task' value={task.name || ''} className='form-control ' onChange={e => setTask({ ...task, name: e.target.value })} autoComplete='off' placeholder='Add Task' maxLength={25} />
-        <button type='submit' className='btn btn-success mx-2' >{task.id ? 'UPDATE' : 'ADD'}</button>
-      </form>
+    <>
+      <section className='addTask shadow-sm bg-light '>
+        <form className='formData ' onSubmit={handleSubmit}>
+          <input type="text" name='task' value={task.name || ''} className='form-control ' onChange={e => setTask({ ...task, name: e.target.value })} autoComplete='off' placeholder='Add Task' maxLength={25} />
+          <button type='submit' className='btn btn-success mx-2' >{task.id ? 'UPDATE' : 'ADD'}</button>
+        </form>
 
-    </section>)
+      </section>
+    </>
+  )
 }
 
 export default AddTask
